@@ -29,7 +29,9 @@ ArtFrame is an album artwork display extension designed for Roon music system, v
 docker run -d \
   --network host \
   --restart unless-stopped \
+  --name artframe \
   epochaudio/artframe:latest
+
 ```
 
 #### Option B: Using Docker Compose
